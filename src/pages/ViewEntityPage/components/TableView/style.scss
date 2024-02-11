@@ -1,0 +1,13 @@
+.table {
+    width: 100%;
+
+    table-layout: fixed;
+
+    &__head {
+        background-color: antiquewhite;
+
+        &  th {
+            border-bottom: 1px solid red;
+        }
+    }
+}
